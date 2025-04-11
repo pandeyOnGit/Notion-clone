@@ -1,7 +1,8 @@
 import { getApp, getApps, initializeApp } from "firebase/app";
 import {getFirestore} from "firebase/firestore"
 const firebaseConfig = {
-    put your config data
+    // Some data
+     };
   };
 
   const app= getApps().length===0?initializeApp(firebaseConfig):getApp();
