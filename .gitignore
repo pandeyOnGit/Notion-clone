@@ -32,6 +32,10 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+<<<<<<< HEAD
+.firebase.ts
+=======
+>>>>>>> 811a251cfe6b950a5784c042bb0d3e805c7e5d0d
 
 # vercel
 .vercel
@@ -39,3 +43,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+<<<<<<< HEAD
+service_key.json
+=======
+>>>>>>> 811a251cfe6b950a5784c042bb0d3e805c7e5d0d

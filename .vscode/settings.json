@@ -1,3 +1,9 @@
 {
+<<<<<<< HEAD
+    "git.ignoreLimitWarning": true,
+    "prettier.semi": false
+
+=======
     "git.ignoreLimitWarning": true
+>>>>>>> 811a251cfe6b950a5784c042bb0d3e805c7e5d0d
 }
