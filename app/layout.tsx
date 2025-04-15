@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+<<<<<<< HEAD
 import { ClerkProvider } from "@clerk/nextjs";
 import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar";
+=======
+>>>>>>> 811a251cfe6b950a5784c042bb0d3e805c7e5d0d
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,6 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+<<<<<<< HEAD
     <ClerkProvider>
       <html lang="en">
         <body>
@@ -28,5 +32,12 @@ export default function RootLayout({
         </body>
       </html>
     </ClerkProvider>
+=======
+    <html lang="en">
+      <body>
+        {children}
+      </body>
+    </html>
+>>>>>>> 811a251cfe6b950a5784c042bb0d3e805c7e5d0d
   );
 }
