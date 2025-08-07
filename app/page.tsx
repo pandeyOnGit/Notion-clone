@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+=======
+import Image from "next/image"
+import { Button } from "@/components/ui/button"
+>>>>>>> 0b8a571ddb89a496133c5dd4283e58d39752790e
 
 export default function Home() {
   return (
@@ -7,5 +12,5 @@ export default function Home() {
       <h1>Let's Build Notion Clone</h1>
       <Button>Click me</Button>
     </div>
-  );
+  )
 }
