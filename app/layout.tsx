@@ -1,9 +1,18 @@
+<<<<<<< HEAD
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
+import { ClerkProvider } from "@clerk/nextjs";
+import Header from "@/components/Header";
+import Sidebar from "@/components/Sidebar";
+=======
 import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 import "./globals.css"
 import { ClerkProvider } from "@clerk/nextjs"
 import Header from "@/components/Header"
 import Sidebar from "@/components/Sidebar"
+>>>>>>> 0b8a571ddb89a496133c5dd4283e58d39752790e
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -22,11 +31,19 @@ export default function RootLayout({
           <Header />
           <div className=" flex min-h-screen">
             {/* {sidebar} */}
+<<<<<<< HEAD
+             <Sidebar/>
+=======
             <Sidebar />
+>>>>>>> 0b8a571ddb89a496133c5dd4283e58d39752790e
             <div className="flex-1 p-4 bg-gray-100">{children}</div>
           </div>
         </body>
       </html>
     </ClerkProvider>
+<<<<<<< HEAD
+  );
+=======
   )
+>>>>>>> 0b8a571ddb89a496133c5dd4283e58d39752790e
 }

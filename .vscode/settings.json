@@ -4,6 +4,12 @@
     "prettier.semi": false
 
 =======
+<<<<<<< HEAD
+    "git.ignoreLimitWarning": true,
+    "prettier.semi": false
+
+=======
     "git.ignoreLimitWarning": true
 >>>>>>> 811a251cfe6b950a5784c042bb0d3e805c7e5d0d
+>>>>>>> 0b8a571ddb89a496133c5dd4283e58d39752790e
 }
